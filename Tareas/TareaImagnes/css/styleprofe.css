@@ -1,0 +1,17 @@
+/*Box-sizing, se recomienda usar(buscar)*/
+
+/*Unidades de medida flexibles, porcentaje(cuando definamos contenedores), em y rem son unidades de medida
+autoajustables, tienen que ver con el tamaño de la fuente(letra)(em, el tamaño lo toma del contenedor padre)
+(rem, es del elemento raiz(<html>))
+Ejemplo em:
+body{
+    font-size: 24px;
+}
+bbody p{
+    font-size: 1.5em; Esto sera 1.25*24=36px
+}
+Para hacerlo bn unidades de medida flexibles tambien usaremos propiedades @media, diseñar una pagina de manera adapatativa para eso
+es mejor usar flex model
+*/
+
+/*con card: hover{} detecto cuando el mouse esta cerca de la tarjeta*/
